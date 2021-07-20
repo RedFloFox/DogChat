@@ -1,0 +1,34 @@
+A New Dog to Sign Up for the app
+
+1. Will require a button in the top right if not logged in, says "Sign Up"
+2. Sign Up page with standard page look, but offers username, email, and password options
+3. Button to "create account", used to submit the information and start the creation process
+4. If successful, the dog will be taken directly to their newly created account profile.
+
+How to friend and accept other Dogs
+
+1. Similar to snapchat, once logged in, there will be a magnifying glass (search button) in the top right on the home page
+2. This button will take you to a larger search bar asking for a username
+3. All accounts with said username will show up, which includes their profile picture and their bio
+4. Button on the right to send friend request
+5. For ease of processing, the dog who was sent a request will see the notification as a popup over their home page - whenever they log in again.
+6. This pop up will offer the option to deny or accept the friend request
+
+Location notification - rough idea
+
+1. Since we already know that the app will be tracking your location on your phone at all times anyways, why don't we implement this?
+2. Your location will be compared to those who you have friend requested
+3. If your location and a friend's location is 10 meters or less in distance, you will both receive a notification
+4. A pop up will appear in the app with the words "Your friend, {friend_name}, is nearby!" 
+
+Views
+
+On top of the previous views:
+	Login Page
+	Feed Page
+	Post/Comment Page
+	Splash Page
+We have to add the stories we just created:
+	Sign Up botton-page
+	Magnifying Button - Search Bar Page
+	Pop up page - includes friend requests and location notifications
